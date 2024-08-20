@@ -32,15 +32,15 @@
 
 
 //
-const arr = [25, 21, 23 ,15 ,21 ,21, 23 ,24];
+// const arr = [25, 21, 23 ,15 ,21 ,21, 23 ,24];
 
-const output = arr.reduce (function( fre, cur){
-   if(fre[cur]){
-    fre[cur]= fre[cur] + 1;
-   }
-   else{
-    fre[cur]=1;
-   }
-   return fre;
-},{})
-console.log(output)
+// const output = arr.reduce (function( fre, cur){
+//    if(fre[cur]){
+//     fre[cur]= fre[cur] + 1;
+//    }
+//    else{
+//     fre[cur]=1;
+//    }
+//    return fre;
+// },{})
+// console.log(output)
